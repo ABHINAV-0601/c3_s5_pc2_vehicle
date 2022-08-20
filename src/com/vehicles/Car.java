@@ -8,11 +8,17 @@ public class Car extends VehicleManufacturer implements Vehicle{
 
     @Override
     public int maxSpeed(String vehicleType) {
+        if(vehicleType.equalsIgnoreCase("SportsCar")){
+            return 250;
+        }
+        else if(vehicleType.equalsIgnoreCase("Sedan")){
+            return 170;
+        }
         return 0;
     }
 
     @Override
     public String getManufacturerInformation() {
-        return null;
+        return "Car{Manufacturer Name :" + getVehicleName()+",Model Name :"+ getVehicleModelName()+",Type :"+getVehicleType()+"}";
     }
 }
