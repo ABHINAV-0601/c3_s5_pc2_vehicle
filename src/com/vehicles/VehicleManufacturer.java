@@ -28,4 +28,6 @@ public abstract class VehicleManufacturer {
     public void setVehicleType(String vehicleType) {
         this.vehicleType = vehicleType;
     }
+
+    public abstract String getManufacturerInformation();
 }
