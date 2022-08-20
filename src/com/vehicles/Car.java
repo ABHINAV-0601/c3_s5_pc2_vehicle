@@ -12,7 +12,7 @@ public class Car extends VehicleManufacturer implements Vehicle{
             return 250;
         }
         else if(vehicleType.equalsIgnoreCase("Sedan")){
-            return 170;
+            return 190;
         }
         return 0;
     }
