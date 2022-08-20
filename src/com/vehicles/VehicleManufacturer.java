@@ -2,12 +2,12 @@ package com.vehicles;
 
 public abstract class VehicleManufacturer {
     private String vehicleName;
-    private String vehicleModelNmae;
+    private String vehicleModelName;
     private String vehicleType;
 
-    public VehicleManufacturer(String vehicleName, String vehicleModelNmae, String vehicleType) {
+    public VehicleManufacturer(String vehicleName, String vehicleModelName, String vehicleType) {
         this.vehicleName = vehicleName;
-        this.vehicleModelNmae = vehicleModelNmae;
+        this.vehicleModelName = vehicleModelName;
         this.vehicleType = vehicleType;
     }
     public String getVehicleName() {
@@ -16,11 +16,11 @@ public abstract class VehicleManufacturer {
     public void setVehicleName(String vehicleName) {
         this.vehicleName = vehicleName;
     }
-    public String getVehicleModelNmae() {
-        return vehicleModelNmae;
+    public String getVehicleModelName() {
+        return vehicleModelName;
     }
-    public void setVehicleModelNmae(String vehicleModelNmae) {
-        this.vehicleModelNmae = vehicleModelNmae;
+    public void setVehicleModelName(String vehicleModelName) {
+        this.vehicleModelName = vehicleModelName;
     }
     public String getVehicleType() {
         return vehicleType;
